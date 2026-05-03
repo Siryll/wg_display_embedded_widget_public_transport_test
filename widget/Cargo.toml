@@ -1,5 +1,5 @@
 [package]
-name = "public_transport_widget_test"
+name = "widget"
 version = "0.0.1"
 edition = "2021"
 

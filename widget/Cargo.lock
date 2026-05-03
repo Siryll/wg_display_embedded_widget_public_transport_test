@@ -179,20 +179,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "public_transport_widget_test"
-version = "0.0.1"
-dependencies = [
- "chrono",
- "schemars",
- "serde",
- "serde_json",
- "time",
- "time-humanize",
- "urlencoding",
- "wit-bindgen",
-]
-
-[[package]]
 name = "quote"
 version = "1.0.44"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -409,6 +395,20 @@ dependencies = [
  "hashbrown 0.14.5",
  "indexmap",
  "semver",
+]
+
+[[package]]
+name = "widget"
+version = "0.0.1"
+dependencies = [
+ "chrono",
+ "schemars",
+ "serde",
+ "serde_json",
+ "time",
+ "time-humanize",
+ "urlencoding",
+ "wit-bindgen",
 ]
 
 [[package]]
